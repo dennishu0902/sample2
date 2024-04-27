@@ -121,7 +121,7 @@ int main(int argc, char* argv[]) {
   std::vector<Group> grpsw;
   if (argc != 4) {
     std::cout << "please input 3 parameters" << std::endl;
-    return -1;
+    return -1; 
   }
   std::string str1 = argv[2];
   if (IsNumber(str1) == 0) {
